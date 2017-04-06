@@ -1,49 +1,71 @@
-html, body, #map_canvas {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+.resume {
+  color:white;
 }
 
-.header {
-  background-color: rgba(0,0,0,0.3);
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  line-height: 37px;
+.resume h2 {
+  padding-right:30px;
+  margin-top: 10px;
+  color:white;
+  text-align: center;
 }
 
-.header .container-fluid {
-  position: relative;
+.contactInfo {
+  margin-top: 20px;
 }
 
-.header h1 {
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 1.2px;    
-  margin: 0;
-  padding: 10px 0 10px 55px;
-  text-transform: uppercase;
+.resume p {
+  color:white;
 }
 
-.header a {
-  padding-right: 20px;
-  color: #fff;
+.profile,.education {
+  text-align: center;
+  padding-right:40px;
+  margin-top:70px;
 }
 
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
+.resume h3 {
+  padding-bottom: 10px;
+  padding-right:50px;
+  width: 110%;
+  border-bottom:white solid 1px;
 }
 
-#map_canvas {
-  position: relative;
+.profile p {
+  text-align: left;
+  width: 110%;
 }
 
-.angular-leaflet-map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+.education {
+  margin-top:-0px;
 }
+
+.education p {
+  text-align: left;
+  width:110%;
+}
+
+.resume ul {
+  text-align: left;
+  -webkit-padding-start:15px;
+}
+
+.workExp h3 {
+  width:103%;
+  padding-right:30px;
+  text-align: center;
+}
+
+.workExp ul {
+  list-style: square;
+}
+
+.workExp p {
+  padding-left:15px;
+}
+
+.p1 {
+  margin-top: 35px;
+}
+
+
+
