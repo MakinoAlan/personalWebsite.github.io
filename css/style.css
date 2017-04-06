@@ -1,0 +1,48 @@
+.menu {
+	margin-top:10px;
+	margin-right: 20px;
+	height:150px;
+}
+
+.menu ul {
+	list-style:none;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu .btn {
+	color:white;
+	font-size: 20px;
+	margin:10px 10px;
+	background: transparent;
+	border:none;
+	border-radius: 0;
+}
+
+.menu .btn:hover {
+	background: transparent;
+	border:white solid 1px;
+}
+
+.selfIntro img {
+	margin-left: 100px;
+	width:30%;
+	border-radius: 50%
+}
+
+.selfIntro h1 {
+	font-size: 42px;
+	color:white;
+	margin-top: 100px;
+	margin-left: -90px;
+}
+
+.selfIntro .btn {
+	background: transparent;
+	border:white solid 2px;
+	padding:10px 30px;
+	margin-top:80px;
+	margin-left:170px;
+}
