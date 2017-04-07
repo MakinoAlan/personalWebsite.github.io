@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<!--
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		-->
 		<link rel='stylesheet' href='css/style.css'/>
+		<link href="css/leaflet.css" rel="stylesheet "/>
 		<script src="js/libs/jquery/jquery.js"></script>
 		<script src="js/libs/jquery/jquery.backstretch.min.js"/></script>
 		<script src="js/vendor/angular.min.js"></script>
@@ -14,7 +17,14 @@
 			<div class="menu pull-right">
 				<ul>
 					<li><a href="#" class="btn btn-default">HOME</a></li>
-					<li><a href="#" class="btn btn-default">PORTFOLIO</a></li>
+					<li class="dropdown">
+                    	<a  class="btn dropdown-toggle" data-toggle="dropdown">Works<b class="caret"></b></a>
+                    		<ul class="dropdown-menu">
+                        		<li><a href="http://map.makinoalany.com">NearMe App</a></li>
+                        		<li><a href="http://schedule.makinoalany.com">Schedule App</a></li>
+                        		<li><a href="http://reader.makinoalany.com">Reader App</a></li>
+                    		</ul>
+                	</li>
 					<li><a href="#" class="btn btn-default">ABOUT</a></li>
 					<li><a href="#/resume" class="btn btn-default">RESUME</a></li>
 					<li><a href="#" class="btn btn-default">CONTACT</a></li>
@@ -34,7 +44,20 @@
 
 		<!-- Controllers -->
 		<script src="js/controllers/MainController.js"></script>
-		<script src="js/controllers/ResumeController.js"></script>
+
+		<!-- Directives -->
+		<script src="js/vendor/leaflet.js"></script>
+    	<script src="js/vendor/angular-leaflet-directive.min.js"></script>
+
+		<!-- Services -->
+		<script src="js/services/places.js"></script>
+
+		<!-- Vendors -->
+		<script src="js/vendor/helpers.js"></script>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 	</body>
 </html>
