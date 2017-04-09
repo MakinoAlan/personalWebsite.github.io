@@ -2,6 +2,12 @@
   color:white;
 }
 
+.linkedin {
+  margin-top:50px;
+  padding-left:400px;
+}
+
+
 .resume h2 {
   padding-right:30px;
   margin-top: 10px;
@@ -76,6 +82,11 @@
   text-align: center;
   width: 107%;
 }
+
+.linkedin {
+  padding-top:100px;
+}
+
 
 
 
